@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: deeppink;
+    font-variant: small-caps;
+}
+
+.icoontje {
+    background-image: url("/labo_6/opdracht_5/cupcakeicon.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 25px;
+}
