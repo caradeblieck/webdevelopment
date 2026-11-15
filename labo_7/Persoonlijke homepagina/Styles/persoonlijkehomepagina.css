@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Almond Milky;
+    src: url("./fonts/Almond Milky.otf")
+}
+
+@font-face {
+    font-family: Alte Haas Grotesk;
+    src: url("./fonts/AlteHaasGroteskRegular.ttf")
+}
+body {
+    background-color: #f2e8d6;
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+a {
+    font-family: Alte Haas Grotesk, Arial, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: #46b5d1;
+}
+
+a:hover {
+    color: #158ba8;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+p{
+    font-family: Alte Haas Grotesk, Arial, sans-serif;
+    color: #8B1943;
+    line-height: 10px;
+}
+
+li {
+    font-family: Alte Haas Grotesk, Arial, sans-serif;
+    color: #8B1943;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Almond Milky, Arial, sans-serif;
+    padding-top: 8px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 40px;
+    color: #FA699E;
+}
+
+h2 {
+    font-size: 25px;
+    color: #f695b8;
+}
+
+hr {
+    border: 2px dashed #cca35a;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+img {
+    border-radius: 20%;
+    border: 5px dotted #f695b8;
+}
+
+ #profiel-foto {
+     height: 200px;
+ }
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    font: normal 13px/150% Alte Haas Grotesk, Arial, sans-serif;
+    background: #f8adc9;
+    overflow: hidden;
+    border: 2px solid #0070A8;
+    border-radius: 20px;
+}
+
+table td, table th {
+    padding: 5px 0;
+}
+
+table thead th {
+    color:#8B1943;
+    font-size: 12px;
+    font-weight: bold;
+    border-left: #f2e8d6 2px dashed;
+    border-bottom: #f2e8d6 3px dashed;
+}
+
+table tbody td {
+    color: #8B1943;
+    border-left: #f2e8d6 2px dashed;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+}

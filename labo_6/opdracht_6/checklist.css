@@ -1,7 +1,7 @@
 li {
     list-style: none;
     padding-left: 20px;
-    background-image: url("./images/unchecked-box.jpg");
+    background-image: url("images/unchecked-box.jpg");
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@ li {
 .checked {
     list-style-type: none;
     padding-left: 20px;
-    background-image: url("./images/checked-box.jpg");
+    background-image: url("images/checked-box.jpg");
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;

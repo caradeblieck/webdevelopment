@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana;
+    max-width: 95%;
+    margin: auto;
+}
+p {
+    font-size: 12px;
+}
+section > header {
+    background-image: url('../Images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+section > header > h1 {
+    margin-inline-start: 10px;
+}
+
+nav {
+    background-color: #2d2e2e;
+}
+
+nav > a {
+    margin: auto;
+    color: #98d4ce;
+    font-size: 12px;
+    font-weight: bold;
+    margin-inline-start: 10px;
+}
+
+article {
+    background-color: #dfe6e5;
+    margin-top: 35px;
+}
+
+article > header {
+    color: #665b54;
+    text-decoration: underline;
+    font-size: 13px;
+}
