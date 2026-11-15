@@ -9,7 +9,7 @@
 }
 
 .icoontje-cupcake {
-    background-image: url("/images/cupcakeicon.png");
+    background-image: url("./images/cupcakeicon.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
@@ -17,7 +17,7 @@
 }
 
 .icoontje-sparkles {
-    background-image: url("/images/sparkle-emoji.png");
+    background-image: url("./images/sparkle-emoji.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
