@@ -1,0 +1,89 @@
+body {
+    width: 95%;
+    text-align: center;
+    font: 1.2em "Verdana", "Helvetica", "Arial", sans-serif;
+}
+a {
+    color: #665b54;
+}
+header {
+    align-items: center;
+}
+
+header img {
+    height: 200px;
+}
+
+h1, h2 {
+    color: #007e7e;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+#elixirs > h1 {
+    color: #8B1943;
+}
+
+#elixirs > h2 {
+    color: #f8adc9;
+}
+
+footer {
+    font-size: 50%;
+}
+
+#content {
+    width: 70%;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 40px;
+    flex: 1;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+#guarantee a {
+    font-style: italic;
+}
+
+#elixirs {
+    width: 30%;
+    float: right;
+    text-align: center;
+    background-image: url(../images/cocktail.gif);
+    background-repeat: repeat-x;
+    border: #0070A8 1px solid;
+    margin-bottom: 20px;
+}
+
+#elixirs a:hover {
+    background-color: #8f7473;
+}
+
+li .cd {
+    font-style: italic;
+}
+
+li .artist {
+    font-weight: bold;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: #fff 3px dotted;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+}
+
+#content > article > h1 {
+    text-align: left;
+}

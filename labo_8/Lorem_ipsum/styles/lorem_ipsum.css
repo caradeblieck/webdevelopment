@@ -1,0 +1,12 @@
+div {
+    display: flex;
+}
+
+section {
+    flex: 1;
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 20px;
+}
